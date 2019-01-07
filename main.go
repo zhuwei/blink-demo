@@ -44,7 +44,7 @@ func main() {
 	})
 
 	//golang注入值
-	view.Inject("title", "IT-MATEX-III-Tool")
+	view.Inject("title", "Tool")
 
 	//golang注入方法
 	view.Inject("GetData", func(num int) (int, error) {
